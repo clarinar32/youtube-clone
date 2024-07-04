@@ -1,0 +1,279 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,400i,700");
+*{
+    box-sizing: border-box;
+    margin: 0%;
+}
+body{
+    font-family:"Roboto", sans-serif;
+    width: 100%;
+    color: #fff;
+    background-color: black;
+}
+.nav{
+    width: 100%;
+    height: 50px;
+    align-items: center;
+    margin-bottom: 2%;
+}
+.search{
+    margin-top: 1%;
+    margin-left: 10%;
+    float: left;
+    width: 40%;
+    height: 40px;
+    border-radius: 10px;
+    margin-left: 0%;
+
+}
+.search2{
+    width: 38vw;
+    align-items: center;
+    height: 40px;
+    padding: 2px;
+    padding-left: 5px;
+    border-radius: 15px;
+    background-color: black;
+    color: grey;
+    box-shadow: #525151;
+    font-size: 15px;
+   border:0.5px solid #525151;
+    outline: 0;
+
+}
+.fa-microphone{
+        text-align: center;
+}
+
+.yt{
+    margin-top: 1%;
+    font-weight: bold;
+    height: 30px;
+    width: 25%;
+    float: left;
+    margin-left: 2%;
+}
+.play{
+    color: #fff;
+    font-size: 20px;
+    margin-left: 28px;
+    width: 35px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: red;
+    
+}
+.text-yt{
+    
+    color: #ffff;
+    font-size: 13px;
+}
+.profile{
+    margin-top: 1%;
+
+    float: left;
+    width: 4%;
+    margin-left: 24%;
+}
+.profile2{
+    float: left;
+    margin-top: 1%;
+    width: 4%;
+    margin-right: 0%;
+}
+.container{
+    margin-top: 0;
+    display: flex;
+    width: 100%;
+
+}
+a{
+    text-decoration: none;
+
+}
+
+
+
+.sidebar{
+    width: 21%;
+    margin-left: 1%;
+    height: 100%;
+    margin-right: 2%;
+    scrollbar-width: 1%;
+    scrollbar-color: #525151;
+}
+.sbar1{
+    margin-bottom: 3%;
+
+}
+.sbar2{
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.sbar3{
+    margin-top: 3%;
+}
+hr{
+    height: 0.9px;
+    color: rgb(61, 60, 60);
+}
+.bar{
+    padding-top: 10px;
+    border-radius: 10px;
+    padding-left: 15px;
+    width: 85%;
+    height: 40px;
+}
+.bar:hover{
+    background-color: rgb(53, 52, 52);
+}
+.bar1{
+    padding-top: 10px;
+    border-radius: 10px;
+    padding-left: 15px;
+    width: 85%;
+    height: 40px;
+}
+
+.fa-solid{
+    color: #fff;
+    font-size: 20px;
+}
+.subtitle{
+    color: #ffff;
+    font-size: 15px;
+}
+.text{
+    margin-left: 20px;
+    color: #ffff;
+    font-size: 13px;
+}
+.dp-wrapper1{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    overflow: hidden;
+    text-align: center;
+    display: inline-flex;
+}
+.main-cont{
+    margin-left: 0%;
+    width: 100%;
+}
+.sbar7{
+    margin-top: 3%;
+
+}
+.last{
+    
+    width: 85%;
+    height: 50px;
+}
+.lastparag{
+    font-size: 13px;
+    color: #797777;
+}
+.main-cont-top{
+    width: 100%;
+    overflow-x: scroll;
+    height: 60px;
+    display: flex;
+    text-align: center;
+    justify-content:space-between;
+    justify-items: start;
+}
+.btns{
+    font-size: 13px;
+    border-radius: 5px;
+    height: 30px;
+    padding-top: 5px;
+    background-color: #333333;
+    width: 60px;
+    text-align: center;
+}
+.btns:hover{
+    color: black;
+    background-color: #fff;
+}
+.main-main{
+    margin-left: 0%;
+    width: 100%;
+    display: grid;
+    grid-row-gap: 40px;
+    grid-column-gap: 5px;
+    grid-template-columns: 33.3% 33.2% 33.1%;
+}
+.videos{
+    border-radius: 10px;
+    box-shadow: #525151;
+}
+.textbox{
+    display: flex;
+    flex-direction: row;
+
+}
+.dp-wrapper{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    justify-self: flex-start;
+}
+ .dp{
+
+   height: 100%;
+   width: 100%;
+   border-radius: 50%;
+   object-fit: cover;
+} 
+.content{
+    line-height: 1;
+    width: 240px;
+    margin-top: 3px;
+    margin-left: 10px;
+    justify-self: flex-end;
+    font-size: 15px;
+
+}
+.fa-circle{
+    color: #525151;
+    font-size: 2px;
+    transform: translateY(-3px);
+}
+.othert{
+    font-size: 14px;
+    color: #6e6e6e;
+}
+.main-cont-shorts{
+    width: 100%;
+    margin-top: 5%;
+}
+.subtitle2{
+    color: #ffff;
+    font-weight: bold;
+    margin-left: 2%;
+}
+.short1{
+    border-radius: 10px;  
+}
+.shorta{
+    width: 20%;
+    float: left;
+}
+.shortb{
+    width: 20%;
+    float: right;
+}
+.shortc{
+    width: 20%;
+    float: right;
+}
+.shortd{
+    width: 20%;
+    float: right;
+}
+.shorte{
+    width: 20%;
+    float: right;
+}
